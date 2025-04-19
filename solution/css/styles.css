@@ -10,7 +10,13 @@ div.container {
 }
 
 li:hover {
-      background-color: darkgrey;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-    }
+  background-color: darkgrey;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+@media(min-width: 768px){
+	.navbar-nav {
+		display: none;
+	}
+}
